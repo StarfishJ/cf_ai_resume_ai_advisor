@@ -1,0 +1,16 @@
+{
+  "name": "cf_ai_resume_ai_advisor",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace @resume-advisor/frontend",
+    "dev:worker": "npm run dev --workspace @resume-advisor/worker",
+    "import:knowledge": "node scripts/import-knowledge.mjs",
+    "import:knowledge-folder": "node scripts/import-knowledge-folder.mjs",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}

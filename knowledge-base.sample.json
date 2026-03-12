@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Impact-driven resume bullets",
+    "text": "Write bullet points with strong action verbs, quantified outcomes, and concrete scope. Prefer 'Reduced processing time by 35% by redesigning the ingestion pipeline' over vague responsibility statements.",
+    "sourceType": "resume_guide",
+    "qualityScore": 1
+  },
+  {
+    "title": "Align resume to target job description",
+    "text": "Mirror the target job description's core skills and responsibilities in the summary, skills section, and top experience bullets. Only include keywords that are supported by real experience.",
+    "sourceType": "resume_guide",
+    "qualityScore": 1
+  },
+  {
+    "title": "Strong engineering resume pattern",
+    "text": "A strong software engineering resume emphasizes delivered systems, measurable impact, scale, ownership, and technical decision-making. Lead with recent achievements and keep each bullet specific and evidence-based.",
+    "sourceType": "expert_resume",
+    "qualityScore": 1
+  }
+]

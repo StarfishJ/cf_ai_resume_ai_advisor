@@ -1,0 +1,26 @@
+name = "ai-resume-advisor-worker"
+main = "src/index.ts"
+compatibility_date = "2026-03-11"
+
+[dev]
+port = 8788
+
+[ai]
+binding = "AI"
+remote = true
+
+[[workflows]]
+binding = "RESUME_INGEST_WORKFLOW"
+name = "resume-ingest-workflow"
+class_name = "ResumeIngestWorkflow"
+
+[[durable_objects.bindings]]
+name = "SESSION_DO"
+class_name = "SessionDO"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["SessionDO"]
+
+[triggers]
+crons = ["0 * * * *"]
