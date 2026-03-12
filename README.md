@@ -26,11 +26,7 @@ flowchart TD
     WF -.->|Retry/Sleep| WF
 ```
 
-## Repository Note
-
-The project requirement says the repository name must be prefixed with `cf_ai_`.
-
-The current workspace folder is `cf_ai_resume_ai_advisor`, which satisfies that requirement.
+![preview](./docs/Screenshot%202026-03-12%20024445.png)
 
 ## Project Scope
 
